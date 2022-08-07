@@ -45,7 +45,7 @@ jobs:
         with:
           name: pyraider-scan-report
           path: ./app/result.json
-  dast:
+  dast_scan:
     if: always()
     needs: build
     runs-on: ubuntu-18.04
